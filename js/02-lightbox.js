@@ -22,8 +22,8 @@ function createGalleryItems(image) {
     
 };
     
-let gallery = new SimpleLightbox('.gallery a');
-    gallery.on('show.simplelightbox',  {
+let gallery = new SimpleLightbox('.gallery a' ,
+      {
         captionsData: 'alt',   
         
         captionDelay: 250,
